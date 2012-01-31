@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <title>eBook Search for Kindle</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://www.google.com/jsapi?key=ABQIAAAASpIO2HBUdt24Cw0XiBfp_RQYKrqYpTog8g5rUnDyLzl-kdWjpBS4cFwJTnjLAjHJ-cQFM13ssqanpQ"></script>
+        <script type="text/javascript">
+            google.load('search', '1', {
+                language : 'zh-CN'
+            });
+            google.setOnLoadCallback(function() {
+                var customSearchControl = new google.search.CustomSearchControl('010239715896823145211:7bxlsuzq-iu');
+                customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+                customSearchControl.draw('cse');
+                var match = location.search.match(/q=([^&]*)(&|$)/);
+                if(match && match[1]) {
+                    var search = decodeURIComponent(match[1]);
+                    customSearchControl.execute(search);
+                }
+            });
+
+        </script>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-28207808-1']);
+            _gaq.push(['_trackPageview']); (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
+    <body>
+        <div id="nav">
+            <ul class="clearfix">
+                <li><a href="http://blog.zhuli.me/" title="回到斯路博客">斯路博客</a></li>
+                <li><a href="https://twitter.com/lisposter/" title="在 twitter 上联系我">@lisposter</a></li>
+                <li><a href="http://kindle.silubeta.com/build" title="更新日志">更新日志</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1><a href="http://kindle.silubeta.com">eBook Search for Kindle</a></h1>
+            <div id="cse" style="width:100%;">
+                Loading...
+            </div>
+            <div id="footer">
+                Copyleft &copy; 2012 , Created by <a href="http://zhu.li">Leigh</a> | Powered by <a href="http://www.google.com/cse">Google CSE</a> All Wrongs Reserved.
+            </div>
+        </div>
+    </body>
+</html>
