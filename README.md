@@ -19,14 +19,17 @@
      |---- script.js                javascript 脚本
      |---- style.css                样式表
 
+*******************
+*******************
+
 #Kindle CSE
 
-##Feature
-1. For eBook (of mobi, pdf, txt, etc. formats search) powered by Kindle, Kindle Touch, Kindle Keyboard with a 6-inch screen.
+##Features
+1. For eBook (of mobi, pdf, txt, etc. formats) search powered by Kindle, Kindle Touch, Kindle Keyboard with a 6-inch screen.
 2. An index for Kindle with all websites, associative tools and software included.
 
 ##Instructions
-> 1. [http://kindle.silubeta.com](http://kindle.silubeta.com) is available online
+> 1.[http://kindle.silubeta.com](http://kindle.silubeta.com) is available online
 >
 > 2.You can also download Kindle CSE and open the index.html with your favorite browser
 >
