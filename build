@@ -5,6 +5,9 @@
  * @last-update     2012.02.01
  */
  
+@2012.02.01[beta 1.2+]
+    Added tos.html, added link to nav. update footer text.
+ 
 @2012.02.01[beta 1.2]
     Fix text's line-height in css.
     Fix h1 title's link open in new window.
