@@ -2,9 +2,15 @@
  * @project         Kindle CSE
  * @author          Leigh Zhu
  * @start-date      2012.01.09
- * @last-update     2012.01.31
+ * @last-update     2012.02.01
  */
-
+ 
+@2012.02.01[beta 1.2]
+    Fix text's line-height in css.
+    Fix h1 title's link open in new window.
+    Added links to footer.
+    Add nav link[advise]
+    
 @2012.01.31[beta 1.1]
     Added comment to index.html for share.
     Rewrited footer text.

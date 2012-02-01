@@ -4,7 +4,7 @@ function externallinks() {
     var links = document.getElementsByTagName("a");
     for(var i = 0; i < links.length; i++) {
         var link = links[i];
-        if(link.getAttribute("href"))
+        if(link.getAttribute("href") != "http://kindle.silubeta.com")
             link.target = "_blank";
     }
 }
