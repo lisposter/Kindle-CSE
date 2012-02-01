@@ -68,8 +68,11 @@ a:hover {
 ul {
     list-style: none outside none;
 }
+ul.tos {
+    list-style: circle;
+}
 body {
-    font: 14px /24px "Comic Sans MS", Helvetica, sans-serif;
+    font: 14px  /24px "Comic Sans MS", Helvetica, sans-serif;
 }
 #nav {
     background: #000;
