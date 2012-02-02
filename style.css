@@ -68,7 +68,7 @@ a:hover {
 ul {
     list-style: none outside none;
 }
-ul.tos {
+ul.disclaimer {
     list-style: circle;
 }
 body {
