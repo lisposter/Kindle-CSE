@@ -5,11 +5,19 @@
         <title>eBook Search for Kindle</title>
         <link rel="stylesheet" href="style.css" />
         <script type="text/javascript" src="script.js"></script>
+        <!-- Online ime from Baidu -->
+        <script type="text/javascript">
+            var bdime_option = {
+                username : "lisposter",
+            }
+        </script>
+        <script type="text/javascript" src="http://www.baidu.com/olime/bdime_open.js"></script>
         <!-- Google Analytics script, if you want to use this code, please replace it -->
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-28207808-1']);
-            _gaq.push(['_trackPageview']); (function() {
+            _gaq.push(['_trackPageview']);
+            (function() {
                 var ga = document.createElement('script');
                 ga.type = 'text/javascript';
                 ga.async = true;
@@ -36,7 +44,7 @@
             </form>
             <div>
                 <p class="intro">
-                    搜索 适合 Kindle， Kindle Touch， Kindle Keyboard 等支持 mobi， pdf，txt 等格式的 6寸屏幕设备阅读的电子书资源。 
+                    搜索 适合 Kindle， Kindle Touch， Kindle Keyboard 等支持 mobi， pdf，txt 等格式的 6寸屏幕设备阅读的电子书资源。
                     带有 [*] 标记的为已被本搜索引擎收录的站点，可以直接搜索。
                 </p>
                 <p class="attention">
