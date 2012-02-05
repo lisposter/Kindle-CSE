@@ -72,7 +72,7 @@ ul.disclaimer {
     list-style: circle;
 }
 body {
-    font: 14px   /24px "Comic Sans MS", Helvetica, sans-serif;
+    font: 14px    /24px "Comic Sans MS", Helvetica, sans-serif;
 }
 #nav {
     background: #000;
@@ -90,8 +90,8 @@ body {
     text-decoration: none;
 }
 #content {
-    width: 960px;
     margin: 10px auto;
+    width: 960px;
 }
 #searchform, #footer, h1 {
     text-align: center;
@@ -116,6 +116,7 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
     border: 1px solid #000000;
     border-radius: 2px 2px 2px 2px;
     color: #FFFFFF;
+    cursor: pointer;
     font-family: inherit;
     font-size: 11px;
     font-weight: bold;
@@ -132,8 +133,8 @@ p.attention {
     font-weight: bold;
 }
 .links {
-    margin-top: 10px;
     border-top: 2px dashed #000;
+    margin-top: 10px;
     padding: 10px;
 }
 .links-group {
@@ -147,10 +148,10 @@ p.attention {
 }
 .category ul li {
     float: left;
-    width: 23%;
+    line-height: 20px;
     overflow: hidden;
     white-space: nowrap;
-    line-height: 20px;
+    width: 23%;
 }
 #footer {
     margin-top: 30px;
