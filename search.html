@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <title>eBook Search for Kindle</title>
         <link rel="stylesheet" href="style.css" />
+        <!-- Google CSE -->
         <script src="https://www.google.com/jsapi?key=ABQIAAAASpIO2HBUdt24Cw0XiBfp_RQYKrqYpTog8g5rUnDyLzl-kdWjpBS4cFwJTnjLAjHJ-cQFM13ssqanpQ"></script>
         <script type="text/javascript">
             google.load('search', '1', {
@@ -31,10 +32,12 @@
             }
         </script>
         <script type="text/javascript" src="http://www.baidu.com/olime/bdime_open.js"></script>
+        <!-- Google Analytics script, if you want to use this code, please replace it -->
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-28207808-1']);
-            _gaq.push(['_trackPageview']); (function() {
+            _gaq.push(['_trackPageview']);
+            (function() {
                 var ga = document.createElement('script');
                 ga.type = 'text/javascript';
                 ga.async = true;
@@ -57,7 +60,9 @@
         <div id="content">
             <h1><a href="http://kindle.silubeta.com">eBook Search for Kindle</a></h1>
             <div id="cse" style="width:100%;">
-                Loading...
+                <p class="intro">
+                    Loading...
+                </p>
             </div>
             <div id="footer">
                 <p>
