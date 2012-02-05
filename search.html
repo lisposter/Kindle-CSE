@@ -7,10 +7,12 @@
         <script src="https://www.google.com/jsapi?key=ABQIAAAASpIO2HBUdt24Cw0XiBfp_RQYKrqYpTog8g5rUnDyLzl-kdWjpBS4cFwJTnjLAjHJ-cQFM13ssqanpQ"></script>
         <script type="text/javascript">
             google.load('search', '1', {
-                language : 'zh-CN'
+                language : 'zh-CN',
+                style : google.loader.themes.MINIMALIST
             });
             google.setOnLoadCallback(function() {
-                var customSearchControl = new google.search.CustomSearchControl('010239715896823145211:7bxlsuzq-iu');
+                var customSearchOptions = {};
+                var customSearchControl = new google.search.CustomSearchControl('010239715896823145211:7bxlsuzq-iu', customSearchOptions);
                 customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
                 customSearchControl.draw('cse');
                 var match = location.search.match(/q=([^&]*)(&|$)/);
@@ -18,7 +20,7 @@
                     var search = decodeURIComponent(match[1]);
                     customSearchControl.execute(search);
                 }
-            });
+            }, true);
 
         </script>
         <script type="text/javascript" src="script.js"></script>
@@ -32,8 +34,7 @@
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-28207808-1']);
-            _gaq.push(['_trackPageview']);
-            (function() {
+            _gaq.push(['_trackPageview']); (function() {
                 var ga = document.createElement('script');
                 ga.type = 'text/javascript';
                 ga.async = true;
