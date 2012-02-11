@@ -15,9 +15,11 @@
     ---
      |---- README.md
      |---- build                    更新日志
+     |---- favicon.ico				favicon
      |---- index.html               首页
      |---- script.js                javascript 脚本
      |---- style.css                样式表
+     |---- tos.html					服务条款
 
 *******************
 *******************
@@ -39,6 +41,8 @@
     ---
      |---- README.md
      |---- build                    log
+     |---- favicon					favicon
      |---- index.html               home page
      |---- script.js                javascript file
      |---- style.css                stylesheet
+     |---- tos.html					Terms of Service
