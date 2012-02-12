@@ -15,17 +15,11 @@
     ---
      |---- README.md
      |---- build                    更新日志
-<<<<<<< HEAD
+     |---- favicon.ico              favicon
      |---- index.html               首页
      |---- script.js                javascript 脚本
      |---- style.css                样式表
-=======
-     |---- favicon.ico				favicon
-     |---- index.html               首页
-     |---- script.js                javascript 脚本
-     |---- style.css                样式表
-     |---- tos.html					服务条款
->>>>>>> experiment
+     |---- tos.html                 服务条款
 
 *******************
 *******************
@@ -47,14 +41,8 @@
     ---
      |---- README.md
      |---- build                    log
-<<<<<<< HEAD
+     |---- favicon                  favicon
      |---- index.html               home page
      |---- script.js                javascript file
      |---- style.css                stylesheet
-=======
-     |---- favicon					favicon
-     |---- index.html               home page
-     |---- script.js                javascript file
-     |---- style.css                stylesheet
-     |---- tos.html					Terms of Service
->>>>>>> experiment
+     |---- tos.html                 Terms of Service
