@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>eBook Search for Kindle</title>
+<<<<<<< HEAD
         <link rel="stylesheet" href="style.css" />
         <script src="https://www.google.com/jsapi?key=ABQIAAAASpIO2HBUdt24Cw0XiBfp_RQYKrqYpTog8g5rUnDyLzl-kdWjpBS4cFwJTnjLAjHJ-cQFM13ssqanpQ"></script>
         <script type="text/javascript">
@@ -11,6 +12,20 @@
             });
             google.setOnLoadCallback(function() {
                 var customSearchControl = new google.search.CustomSearchControl('010239715896823145211:7bxlsuzq-iu');
+=======
+        <link rel="shortcut icon" type="image/ico" href="favicon.ico" /> 
+        <link rel="stylesheet" href="style.css" />
+        <!-- Google CSE -->
+        <script src="https://www.google.com/jsapi?key=ABQIAAAASpIO2HBUdt24Cw0XiBfp_RQYKrqYpTog8g5rUnDyLzl-kdWjpBS4cFwJTnjLAjHJ-cQFM13ssqanpQ"></script>
+        <script type="text/javascript">
+            google.load('search', '1', {
+                language : 'zh-CN',
+                style : google.loader.themes.MINIMALIST
+            });
+            google.setOnLoadCallback(function() {
+                var customSearchOptions = {};
+                var customSearchControl = new google.search.CustomSearchControl('010239715896823145211:7bxlsuzq-iu', customSearchOptions);
+>>>>>>> experiment
                 customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
                 customSearchControl.draw('cse');
                 var match = location.search.match(/q=([^&]*)(&|$)/);
@@ -18,6 +33,7 @@
                     var search = decodeURIComponent(match[1]);
                     customSearchControl.execute(search);
                 }
+<<<<<<< HEAD
             });
 
         </script>
@@ -26,6 +42,25 @@
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-28207808-1']);
             _gaq.push(['_trackPageview']); (function() {
+=======
+            }, true);
+
+        </script>
+        <script type="text/javascript" src="script.js"></script>
+        <!-- Online ime from Baidu -->
+        <script type="text/javascript">
+            var bdime_option = {
+                username : "lisposter",
+            }
+        </script>
+        <script type="text/javascript" src="http://www.baidu.com/olime/bdime_open.js"></script>
+        <!-- Google Analytics script, if you want to use this code, please replace it -->
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-28207808-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+>>>>>>> experiment
                 var ga = document.createElement('script');
                 ga.type = 'text/javascript';
                 ga.async = true;
@@ -39,18 +74,39 @@
     <body>
         <div id="nav">
             <ul class="clearfix">
+<<<<<<< HEAD
                 <li><a href="http://blog.zhuli.me/" title="回到斯路博客">斯路博客</a></li>
                 <li><a href="https://twitter.com/lisposter/" title="在 twitter 上联系我">@lisposter</a></li>
                 <li><a href="http://kindle.silubeta.com/build" title="更新日志">更新日志</a></li>
+=======
+                <li><a href="http://blog.zhuli.me/" title="回到斯路博客" rel="external">斯路博客</a></li>
+                <li><a href="https://twitter.com/lisposter/" title="在 twitter 上联系我" rel="external">@lisposter</a></li>
+                <li><a href="https://github.com/lisposter/kindle-cse/blob/gh-pages/build" title="更新日志" rel="external">更新日志</a></li>
+                <li><a href="http://blog.zhuli.me/2012/02/01/kindle-cse-project.html#respond" title="欢迎给我建议，推荐站点等" rel="external">给我建议</a></li>
+>>>>>>> experiment
             </ul>
         </div>
         <div id="content">
             <h1><a href="http://kindle.silubeta.com">eBook Search for Kindle</a></h1>
             <div id="cse" style="width:100%;">
+<<<<<<< HEAD
                 Loading...
             </div>
             <div id="footer">
                 Copyleft &copy; 2012 , Created by <a href="http://zhu.li">Leigh</a> | Powered by <a href="http://www.google.com/cse">Google CSE</a> All Wrongs Reserved.
+=======
+                <p class="intro">
+                    Loading...
+                </p>
+            </div>
+            <div id="footer">
+                <p>
+                    Created by <a href="http://zhu.li" title="Coded by Leigh" rel="external">Leigh</a> | Powered by <a href="http://www.google.com/cse" title="Google Custom Search" rel="external">Google CSE</a>| Hosted at <a href="http://github.com/" title="Github:Pages" rel="external">GitHub</a> | <a href="https://github.com/lisposter/kindle-cse" title="kindle-cse on GitHub" rel="external">kindle-cse Project</a>.
+                </p>
+                <p>
+                    Copyleft &copy; 2012 <a href="http://kindle.silubeta.com/" title="eBook Search for Kindle" rel="external">eBook Search for Kindle</a>, All Wrongs Reserved | <a href="tos.html" title="Disclaimer" rel="external">Disclaimer</a>.
+                </p>
+>>>>>>> experiment
             </div>
         </div>
     </body>

@@ -3,8 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <title>eBook Search for Kindle</title>
+<<<<<<< HEAD
         <link rel="stylesheet" href="style.css" />
         <script type="text/javascript" src="script.js"></script>
+=======
+        <link rel="shortcut icon" type="image/ico" href="favicon.ico" /> 
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="script.js"></script>
+        <!-- Online ime from Baidu -->
+        <script type="text/javascript">
+            var bdime_option = {
+                username : "lisposter",
+            }
+        </script>
+        <script type="text/javascript" src="http://www.baidu.com/olime/bdime_open.js"></script>
+>>>>>>> experiment
         <!-- Google Analytics script, if you want to use this code, please replace it -->
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -24,15 +37,23 @@
     <body>
         <div id="nav">
             <ul class="clearfix">
+<<<<<<< HEAD
                 <li><a href="http://blog.zhuli.me/" title="回到斯路博客">斯路博客</a></li>
                 <li><a href="https://twitter.com/lisposter/" title="在 twitter 上联系我">@lisposter</a></li>
                 <li><a href="http://kindle.silubeta.com/build" title="更新日志">更新日志</a></li>
+=======
+                <li><a href="http://blog.zhuli.me/" title="回到斯路博客" rel="external">斯路博客</a></li>
+                <li><a href="https://twitter.com/lisposter/" title="在 twitter 上联系我" rel="external">@lisposter</a></li>
+                <li><a href="https://github.com/lisposter/kindle-cse/blob/gh-pages/build" title="更新日志" rel="external">更新日志</a></li>
+                <li><a href="http://blog.zhuli.me/2012/02/01/kindle-cse-project.html#respond" title="欢迎给我建议，推荐站点等" rel="external">给我建议</a></li>
+>>>>>>> experiment
             </ul>
         </div>
         <div id="content">
             <h1><a href="http://kindle.silubeta.com">eBook Search for Kindle</a></h1>
             <form method="get" id="searchform" action="search.html">
                 <input type="text" value="请输入书名..." name="q" id="search-input"  onFocus="this.value = this.value == this.defaultValue ? '' : this.value" onBlur="this.value = this.value == '' ? this.defaultValue : this.value"/>
+<<<<<<< HEAD
             </form>
             <div>
                 <p class="intro">
@@ -41,12 +62,24 @@
                 </p>
                 <p class="attention">
                     所有资源均来自于互联网各个网站，而非本站点，搜索算法由 Google 提供。部分网站中的书籍资源版权信息未知，互联网信息瞬息万变，本工具不保证所有网站一如既往不受版权争议，如果您发现您的作品被侵权，请直接与提供下载的网站和 Google 协商，本站无法删除内容。
+=======
+                <input class="search-button" type="submit" value="搜索" title="搜索">
+            </form>
+            <div>
+                <p class="intro">
+                    搜索 .mobi .epub .txt .pdf(6寸) 格式电子书资源。<br />
+                    带有 [*] 标记的为已被本搜索引擎收录的站点，可以直接搜索。
+                </p>
+                <p class="attention">
+                    本工具为 Google Custom Search 制作，互联网信息瞬息万变，无法保证所有第三方内容一直没有版权争议。
+>>>>>>> experiment
                 </p>
             </div>
             <div class="links">
                 <div class="category clearfix">
                     <h3 class="links-group"> 中文站点 </h3>
                     <ul class="clearfix">
+<<<<<<< HEAD
                         <li><a href="http://www.inien.com/" title="经典书、畅销书。epub和自定义格式的pdf。">亿年书海</a></li>
                         <li><a href="http://kgbook.com/" title="6寸pdf和mobi">苦瓜书盘[*]</a></li>
                         <li><a href="http://book.zi5.me/" title="利用OPDS搭建的分享站，支持推送。">子乌书简[*]</a></li>
@@ -59,11 +92,26 @@
                         <li><a href="http://coay.com" title="[需注册]epub">COAY[*]</a></li>
                         <li><a href="http://shucang.com/" title="[需注册]图书和期刊  epub、pdf、mobi等">书仓网[*]</a></li>
                         <li><a href="http://ibook.178.com/" title="epub格式电子书下载，适合苹果设备。">178 ibook[*]</a></li>
+=======
+                        <li><a href="http://www.inien.com/" title="经典书、畅销书。epub和自定义格式的pdf。" rel="external">亿年书海</a></li>
+                        <li><a href="http://kgbook.com/" title="6寸pdf和mobi" rel="external">苦瓜书盘[*]</a></li>
+                        <li><a href="http://book.zi5.me/" title="利用OPDS搭建的分享站，支持推送。" rel="external">子乌书简[*]</a></li>
+                        <li><a href="http://ikindle.mobi/book/" title="Kindle mobi资源" rel="external">ikindle万卷书[*]</a></li>
+                        <li><a href="http://shu.im/" title="书，mobi，epub等格式" rel="external">书[*]</a></li>
+                        <li><a href="http://haodoo.net/" title="繁体中文资源，updb，pdb，prc，epub" rel="external">好读网[*]</a></li>
+                        <li><a href="http://www.qcenglish.com/" title="提供英文原版电子书下载，大多为pdf格式，有解压密码。 " rel="external">七彩英语[*]</a></li>
+                        <li><a href="http://www.wmwk.org/" title="[需注册]期刊、图书。可在线阅读及下载，可下载txt,mobi,epub格式，可投递到kindle。而且移动版可免积分阅读所有内容。积分规则比较复杂。 体验不是很好" rel="external">完美文库</a></li>
+                        <li><a href="http://www.cnepub.com" title="[需注册]需要书币，提供epub和mobi格式，可以推送到kindle。" rel="external">掌上书苑</a></li>
+                        <li><a href="http://coay.com" title="[需注册]epub" rel="external">COAY[*]</a></li>
+                        <li><a href="http://shucang.com/" title="[需注册]图书和期刊  epub、pdf、mobi等" rel="external">书仓网[*]</a></li>
+                        <li><a href="http://ibook.178.com/" title="epub格式电子书下载，适合苹果设备。" rel="external">178 ibook[*]</a></li>
+>>>>>>> experiment
                     </ul>
                 </div>
                 <div class="category clearfix">
                     <h3 class="links-group"> 国外站点 </h3>
                     <ul class="clearfix">
+<<<<<<< HEAD
                         <li><a href="http://www.feedbooks.com/" title="有mobi，epub等格式。public domain">Feedbooks[*]</a></li>
                         <li><a href="http://www.ebookshare.net/" title="英文书籍，网盘和 bt 下载">Ebookshare[*]</a></li>
                         <li><a href="http://www.wowebook.me/" title="计算机类原版图书较多，质量较好，具有 pdf 和 mobi 格式">Wow! eBook[*]</a></li>
@@ -74,22 +122,44 @@
                         <li><a href="http://www.amazon.com/b?ie=UTF8&amp;node=2245146011" title="Amazon Free Books">Amazon Free Books</a></li>
                         <li><a href="http://www.amazon.com/mn/search?_encoding=UTF8&amp;x=0&amp;y=0&amp;field-keywords=&amp;url=node%3D2279458011&amp;_encoding=UTF8&amp;tag=ammzon-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957#/ref=sr_hi_2?rh=n%3A133140011%2Cn%3A%212334093011%2Cn%3A%212334155011%2Cn%3A2279458011&amp;ie=UTF8&amp;qid=1326265002" title="Amazon Limited Time Offers">Amazon Limited Time Offers</a></li>
                         <li><a href="http://ereadernewstoday.com/category/free-kindle-books/" title="Amazon free books list">Ereader News Today</a></li>
+=======
+                        <li><a href="http://www.feedbooks.com/" title="有mobi，epub等格式。public domain" rel="external">Feedbooks[*]</a></li>
+                        <li><a href="http://www.ebookshare.net/" title="英文书籍，网盘和 bt 下载" rel="external">Ebookshare[*]</a></li>
+                        <li><a href="http://www.wowebook.me/" title="计算机类原版图书较多，质量较好，具有 pdf 和 mobi 格式" rel="external">Wow! eBook[*]</a></li>
+                        <li><a href="http://www.gutenberg.org/" title="Gutenberg上的免费书籍，可直接下载mobi格式。" rel="external">Project Gutenberg[*]</a></li>
+                        <li><a href="http://www.archive.org/" title="Over 2.5 million free titles" rel="external">Internet Archive</a></li>
+                        <li><a href="http://openlibrary.org/" title="Over 1 million free titles" rel="external">Open Library</a></li>
+                        <li><a href="http://www.manybooks.net/" title="Over 26,000 free titles." rel="external">ManyBooks.net[*]</a></li>
+                        <li><a href="http://www.amazon.com/b?ie=UTF8&amp;node=2245146011" title="Amazon Free Books" rel="external">Amazon Free Books</a></li>
+                        <li><a href="http://www.amazon.com/mn/search?_encoding=UTF8&amp;x=0&amp;y=0&amp;field-keywords=&amp;url=node%3D2279458011&amp;_encoding=UTF8&amp;tag=ammzon-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957#/ref=sr_hi_2?rh=n%3A133140011%2Cn%3A%212334093011%2Cn%3A%212334155011%2Cn%3A2279458011&amp;ie=UTF8&amp;qid=1326265002" title="Amazon Limited Time Offers" rel="external">Amazon Limited Time Offers</a></li>
+                        <li><a href="http://ereadernewstoday.com/category/free-kindle-books/" title="Amazon free books list" rel="external">Ereader News Today</a></li>
+>>>>>>> experiment
                     </ul>
                 </div>
                 <div class="category clearfix">
                     <h3 class="links-group"> 网盘资源 </h3>
                     <ul class="clearfix">
+<<<<<<< HEAD
                         <li><a href="https://www.dropbox.com/s/b44t0swhzsdlaof" title="irising.me 作者的 Dropbox">irising‘s Dropbox</a></li>
                         <li><a href="https://www.wuala.com/Kindle%20Books/?key=iD419emRjEk4" title="资源非常多的网盘">Wulua-Kindle Books</a></li>
                         <li><a href="https://skydrive.live.com/?cid=ab536aff86b227d2" title="CFA、CPA、Economics、Finance、Hacker、IT、Law、psychology、三联哈佛燕京学术丛书、全美经典学习指导系列丛书、剑桥史等">young seakye' SkyDrive </a></li>
                         <li><a href="https://skydrive.live.com/?cid=65c27572e1ef52ba&amp;id=65C27572E1EF52BA%21125" title="txt 精排">chan jingstone's SkyDrive</a></li>
                         <li><a href="http://www.hi-pda.com/forum/viewthread.php?tid=569396&amp;extra=page%3D1" title="hi-pda 论坛上 txt 精排资源">txt from Hi-PDA</a></li>
                         <li><a href="http://www.hi-pda.com/forum/viewthread.php?tid=483779&amp;extra=page%3D1" title="hi-pda 论坛上的6寸pdf">6 inch pdf from Hi-PDA</a></li>
+=======
+                        <li><a href="https://www.dropbox.com/s/b44t0swhzsdlaof" title="irising.me 作者的 Dropbox" rel="external">irising‘s Dropbox</a></li>
+                        <li><a href="https://www.wuala.com/Kindle%20Books/?key=iD419emRjEk4" title="资源非常多的网盘" rel="external">Wulua-Kindle Books</a></li>
+                        <li><a href="https://skydrive.live.com/?cid=ab536aff86b227d2" title="CFA、CPA、Economics、Finance、Hacker、IT、Law、psychology、三联哈佛燕京学术丛书、全美经典学习指导系列丛书、剑桥史等" rel="external">young seakye' SkyDrive </a></li>
+                        <li><a href="https://skydrive.live.com/?cid=65c27572e1ef52ba&amp;id=65C27572E1EF52BA%21125" title="txt 精排" rel="external">chan jingstone's SkyDrive</a></li>
+                        <li><a href="http://www.hi-pda.com/forum/viewthread.php?tid=569396&amp;extra=page%3D1" title="hi-pda 论坛上 txt 精排资源" rel="external">txt from Hi-PDA</a></li>
+                        <li><a href="http://www.hi-pda.com/forum/viewthread.php?tid=483779&amp;extra=page%3D1" title="hi-pda 论坛上的6寸pdf" rel="external">6 inch pdf from Hi-PDA</a></li>
+>>>>>>> experiment
                     </ul>
                 </div>
                 <div class="category clearfix">
                     <h3 class="links-group">新闻投递及相关工具</h3>
                     <ul>
+<<<<<<< HEAD
                         <li><a href="http://ikindle.mobi/" title="新闻投递服务，可订阅定时推送或下载 mobi">ikindle</a></li>
                         <li><a href="http://dog.whycai.com/" title="新闻投递服务，可订阅推送或下载 mobi ，类似 ikindle">狗耳朵</a></li>
                         <li><a href="http://kindle4rss.com/" title="订阅RSS Feed新闻并定时递送到Kindle的服务，可导入 Google Reader，付费服务">Kindle4RSS</a></li>
@@ -99,11 +169,31 @@
                         <li><a href="http://fivefilters.org/kindle-it/" title="提供 Bookmarklet，firefox、Chrome扩展，可手动将网页推送至 Kindle">Kindle It</a></li>
                         <li><a href="http://www.amazon.com/sendtokindle" title="软件工具，与资源管理器集成，发送任何文档至 Kindle ，也可使用其虚拟打印服务，打印至 Kindle">Amazon send to kindle</a></li>
                         <li><a href="http://calibre-ebook.com/" title="最强大的跨平台电子书管理软件，可以轻易转换格式，管理元数据，甚至可以结合 OPDS 和 Dropbox，搭建私人云端书库">calibre</a></li>
+=======
+                        <li><a href="http://ikindle.mobi/" title="新闻投递服务，可订阅定时推送或下载 mobi" rel="external">ikindle</a></li>
+                        <li><a href="http://dog.whycai.com/" title="新闻投递服务，可订阅推送或下载 mobi ，类似 ikindle" rel="external">狗耳朵</a></li>
+                        <li><a href="http://kindle4rss.com/" title="订阅RSS Feed新闻并定时递送到Kindle的服务，可导入 Google Reader，付费服务" rel="external">Kindle4RSS</a></li>
+                        <li><a href="http://sendtoreader.com/" title="提供 Bookmarklet 工具，将网页推送至 Kindle，该网站还有 RSS 新闻投递服务" rel="external">SENDtoREADER</a></li>
+                        <li><a href="http://www.klip.me/" title="RSS投递，支持Google Reader推送至 Kindle，以及将 Google Calendar 同步至 Kindle" rel="external">klip.me</a></li>
+                        <li><a href="http://www.instapaper.com/" title="提供 Bookmarklet “Read Later” 工具，可将网页轻松加至 Instapaper 列表，还可设置定时将其推送至 Kindle" rel="external">Instapaper</a></li>
+                        <li><a href="http://fivefilters.org/kindle-it/" title="提供 Bookmarklet，firefox、Chrome扩展，可手动将网页推送至 Kindle" rel="external">Kindle It</a></li>
+                        <li><a href="http://www.amazon.com/sendtokindle" title="软件工具，与资源管理器集成，发送任何文档至 Kindle ，也可使用其虚拟打印服务，打印至 Kindle" rel="external">Amazon send to kindle</a></li>
+                        <li><a href="http://calibre-ebook.com/" title="最强大的跨平台电子书管理软件，可以轻易转换格式，管理元数据，甚至可以结合 OPDS 和 Dropbox，搭建私人云端书库" rel="external">calibre</a></li>
+>>>>>>> experiment
                     </ul>
                 </div>
             </div>
             <div id="footer">
+<<<<<<< HEAD
                 Copyleft &copy; 2012 <a href="http://kindle.silubeta.com/" title="eBook Search for Kindle">eBook Search for Kindle</a>, All Wrongs Reserved | Created by <a href="http://zhu.li" title="Coded by Leigh">Leigh</a> | Powered by <a href="http://www.google.com/cse" title="Google Custom Search">Google CSE</a>.
+=======
+                <p>
+                    Created by <a href="http://zhu.li" title="Coded by Leigh" rel="external">Leigh</a> | Powered by <a href="http://www.google.com/cse" title="Google Custom Search" rel="external">Google CSE</a>| Hosted at <a href="http://github.com/" title="Github:Pages" rel="external">GitHub</a> | <a href="https://github.com/lisposter/kindle-cse" title="kindle-cse on GitHub" rel="external">kindle-cse Project</a>.
+                </p>
+                <p>
+                    Copyleft &copy; 2012 <a href="http://kindle.silubeta.com/" title="eBook Search for Kindle">eBook Search for Kindle</a>, All Wrongs Reserved | <a href="tos.html" title="Disclaimer" rel="external">Disclaimer</a>.
+                </p>
+>>>>>>> experiment
             </div>
         </div>
     </body>
