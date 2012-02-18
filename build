@@ -4,7 +4,11 @@
  * @start-date      2012.01.09
  * @last-update     2012.02.01
  */
- 
+
+@2012.02.18[beta 3]
+    Included bbs.duokan.com, www.92kindle.com, bbs.mydoo.cn, and add refinements tags to split the result of sites and fourm.
+    Added fourms links.
+
 @2012.02.05[beta 2.1]
     Change Google CSE style MINIMALIST.
     Added search button to index.html and style as MINIMALIST.
