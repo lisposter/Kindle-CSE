@@ -1,16 +1,16 @@
 /**
-* @author Leigh Zhu
-* @version beta 0.1
-* @create-date 2012.01.09
-* @last-update 2012.02.01
-*/
+ * @author Leigh Zhu
+ * @version beta 0.1
+ * @create-date 2012.01.09
+ * @last-update 2012.02.01
+ */
 
 /**
-* 思雨
-* 有情难解又相思，不若无情数雨丝。
-*/
+ * 思雨
+ * 有情难解又相思，不若无情数雨丝。
+ */
 /* =Reset default browser CSS. Based on work by Eric Meyer:http://meyerweb.com/eric/tools/css/reset/index.html
--------------------------------------------------------------- */
+ -------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     background: transparent;
     border: 0;
@@ -47,7 +47,7 @@ a img {
     border: none;
 }
 /* Style begin here by Leigh
--------------------------------------------------------------- */
+ -------------------------------------------------------------- */
 .clearfix:after {
     content: ".";
     display: block;
@@ -72,7 +72,7 @@ ul.disclaimer {
     list-style: circle;
 }
 body {
-    font: 14px /24px "Comic Sans MS", Helvetica, sans-serif;
+    font: 14px  /24px "Comic Sans MS", Helvetica, sans-serif;
 }
 #nav {
     background: #000;
@@ -154,6 +154,6 @@ p.attention {
     width: 23%;
 }
 #footer {
-	font-size: 10px;
+    font-size: 12px;
     margin-top: 30px;
 }
