@@ -1,7 +1,7 @@
-This version is build with node.js express( jade && stylus).
+## This version is build with node.js express( jade && stylus).
 
 
-== Install
+# Install
 1. Deploy node.js, express in your server.
 2. Change the express's styles method to stylus. You can initial your app-dir use the command: express -c stylus. ( express's default view engine is jade, you don't need to change it.)
 3. Deploy git on your server.
