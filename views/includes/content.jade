@@ -1,50 +1,50 @@
 include sites
 
 section
-    h3 中文站点
-    ul.list
-      each zhSite in zhSites
-        li
-            a(href='#{zhSite.url}') #{zhSite.tit}
-                br
-                span.des
-                 |#{zhSite.des}
+	h3 中文站点
+	ul.list
+		each zhSite in zhSites
+			li
+				a(href='#{zhSite.url}') #{zhSite.tit}
+					br
+					span.des
+						|#{zhSite.des}
 
 section
-    h3 外文站点
-    ul.list
-     each enSite in enSites
-        li
-            a(href='#{enSite.url}') #{enSite.tit}
-                br
-                span.des
-                   |#{enSite.des}
+	h3 外文站点
+	ul.list
+		each enSite in enSites
+			li
+				a(href='#{enSite.url}') #{enSite.tit}
+					br
+					span.des
+						|#{enSite.des}
 
 section
-    h3 网盘资源
-    ul.list
-     each webDisk in webDisks
-        li
-            a(href='#{webDisk.url}') #{webDisk.tit}
-                br
-                span.des
-                   |#{webDisk.des}
+	h3 网盘资源
+	ul.list
+		each webDisk in webDisks
+			li
+				a(href='#{webDisk.url}') #{webDisk.tit}
+					br
+					span.des
+						|#{webDisk.des}
 
 section
-    h3 论坛社区
-    ul.list
-     each forum in forums
-        li
-            a(href='#{forum.url}') #{forum.tit}
-                br
-                span.des
-                   |#{forum.des}
+	h3 论坛社区
+	ul.list
+		each forum in forums
+			li
+				a(href='#{forum.url}') #{forum.tit}
+					br
+					span.des
+						|#{forum.des}
 section
-    h3 相关工具
-    ul.list
-     each tool in tools
-        li
-            a(href='#{tool.url}') #{tool.tit}
-                br
-                span.des
-                   |#{tool.des}
+	h3 相关工具
+	ul.list
+		each tool in tools
+			li
+				a(href='#{tool.url}') #{tool.tit}
+					br
+					span.des
+						|#{tool.des}

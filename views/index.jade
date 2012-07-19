@@ -1,15 +1,15 @@
 extends layout
 
 append head
-    script
-        var bdime_option = {
-            username : "lisposter",
-        }
-    script(src='http://www.baidu.com/olime/bdime_open.js')
+	script
+		var bdime_option = {
+			username : "lisposter",
+		}
+	script(src='http://www.baidu.com/olime/bdime_open.js')
 
 block content
-    include includes/nav
-    h1
-        a(href='/')=title
-    include includes/form
-    include includes/content
+	include includes/nav
+	h1
+		a(href='/')=title
+	include includes/form
+	include includes/content
