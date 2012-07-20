@@ -3,9 +3,10 @@ extends layout
 block content
 	include includes/nav
 	div#content
-		h1=title
+		h1
+			a(href='/')=title
 		p.lang
-			a(href='#en', title='English Version') Go to English version.
+			a(href='#en', title='English Version')  English version is also here.
 		hr
 		h2#zh 免责声明
 		p.intro 在使用本工具，及相关项目、代码前，请阅读以下条款，您可以选择不使用本工具及相关项目及代码，如使用，则代表您同意以下条款。
