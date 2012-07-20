@@ -1,6 +1,6 @@
 include sites
 
-section
+section.zhsites
 	h3 中文站点
 	ul.list
 		each zhSite in zhSites
@@ -10,7 +10,7 @@ section
 					span.des
 						|#{zhSite.des}
 
-section
+section.ensites
 	h3 外文站点
 	ul.list
 		each enSite in enSites
@@ -20,7 +20,7 @@ section
 					span.des
 						|#{enSite.des}
 
-section
+section.webdisks
 	h3 网盘资源
 	ul.list
 		each webDisk in webDisks
@@ -30,7 +30,7 @@ section
 					span.des
 						|#{webDisk.des}
 
-section
+section.forums
 	h3 论坛社区
 	ul.list
 		each forum in forums
@@ -39,7 +39,7 @@ section
 					br
 					span.des
 						|#{forum.des}
-section
+section.tools
 	h3 相关工具
 	ul.list
 		each tool in tools
