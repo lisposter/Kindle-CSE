@@ -26,6 +26,8 @@ append head
 	script(src='http://www.baidu.com/olime/bdime_open.js')
 block content
 	include includes/nav
-	h1=title
+	h1
+		a(href='/')=title 
+			span.sup Click to Return!
 	div#cse
 		p.intro Loading
